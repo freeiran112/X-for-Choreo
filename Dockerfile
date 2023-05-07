@@ -2,17 +2,17 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH= \
-    UUID= \
+    UUID=67199478-0fb0-44e8-98ff-889a0d4c0b4c \
     NEZHA_SERVER= \
     NEZHA_PORT= \
     NEZHA_KEY= \
-    NEZHA_TLS= \
+    NEZHA_TLS=0 \
     WEB_DOMAIN= \
     ARGO_DOMAIN= \
     SSH_DOMAIN= \
     ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    WEB_USERNAME=admin \
+    WEB_PASSWORD=pass
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
